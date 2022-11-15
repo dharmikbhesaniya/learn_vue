@@ -8,7 +8,8 @@
         <!-- <twowaybinding /> -->
         <!-- <Valuegetfrominput /> -->
         <!-- <Ifelse /> -->
-        <Forloop />
+        <!-- <Forloop /> -->
+        <perant />
         <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
     </div>
 </template>
@@ -20,6 +21,7 @@ import Ifelse from "./components/Ifelse.vue";
 import Learnvuejsasd from "./components/Learnvuejsasd.vue";
 import Twowaybinding from "./components/Twowaybinding.vue";
 import Valuegetfrominput from "./components/Valuegetfrominput.vue";
+import Perant from "./components/pass_data/Parent.vue";
 
 export default {
     name: "App",
@@ -30,6 +32,7 @@ export default {
         Valuegetfrominput,
         Ifelse,
         Forloop,
+        Perant,
     },
 };
 </script>
