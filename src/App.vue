@@ -1,26 +1,46 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div>
+        <!-- <img
+    alt="Vue logo"
+    src="./assets/logo.png"
+  /> -->
+        <!-- <learnvuejsasd /> -->
+        <!-- <twowaybinding /> -->
+        <!-- <Valuegetfrominput /> -->
+        <!-- <Ifelse /> -->
+        <Forloop />
+        <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Forloop from "./components/Forloop.vue";
+import HelloWorld from "./components/HelloWorld.vue";
+import Ifelse from "./components/Ifelse.vue";
+import Learnvuejsasd from "./components/Learnvuejsasd.vue";
+import Twowaybinding from "./components/Twowaybinding.vue";
+import Valuegetfrominput from "./components/Valuegetfrominput.vue";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+    name: "App",
+    components: {
+        HelloWorld,
+        Learnvuejsasd,
+        Twowaybinding,
+        Valuegetfrominput,
+        Ifelse,
+        Forloop,
+    },
+};
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
 }
 </style>
