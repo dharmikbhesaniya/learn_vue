@@ -1,12 +1,11 @@
 <template lang="">
     <div>
-        <h1>this is a chaild component.</h1>
-        <p>hello my name is dharmik</p>
+        <h1>chailde</h1>
     </div>
 </template>
 <script>
 export default {
-    name: "Chaild",
+    name: "First",
 };
 </script>
 <style lang=""></style>
