@@ -1,16 +1,16 @@
-<template lang="">
+<template>
     <div>
-        <Chaild />
+        <Test />
+        <h1>hiii</h1>
     </div>
 </template>
 <script>
-import  Chaild  from "./Chaild.vue";
+import Test from "./Test.vue";
 
 export default {
     name: "Perant",
     comments: {
-        Chaild,
+        Test,
     },
 };
 </script>
-<style lang=""></style>
