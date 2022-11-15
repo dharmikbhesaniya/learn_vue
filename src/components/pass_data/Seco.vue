@@ -1,6 +1,6 @@
 <template lang="">
     <div>
-        <First />
+        <First name="dharmik" />
         <p>perant</p>
     </div>
 </template>
