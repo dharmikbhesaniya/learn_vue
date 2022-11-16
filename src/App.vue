@@ -7,7 +7,9 @@
         <!-- <Ifelse /> -->
         <!-- <Forloop /> -->
         <!-- <seco /> -->
-        <userdata />
+        <!-- <userdata /> -->
+        <!-- <Htmlbinding /> -->
+        <classbinding />
         <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
     </div>
 </template>
@@ -18,9 +20,11 @@ import HelloWorld from "./components/HelloWorld.vue";
 import Ifelse from "./components/Ifelse.vue";
 import Learnvuejsasd from "./components/Learnvuejsasd.vue";
 import Twowaybinding from "./components/Twowaybinding.vue";
-import Valuegetfrominput from "./components/Valuegetfrominput.vue";
+import Valuegetfrominput from "./components/binding/Valuegetfrominput.vue";
 import Seco from "./components/pass_data/Seco.vue";
 import Userdata from "./components/print_user_data/Userdata.vue";
+import Htmlbinding from "./components/binding/Htmlbinding.vue";
+import classbinding from "./components/binding/classbinding.vue";
 export default {
     name: "App",
     components: {
@@ -32,6 +36,8 @@ export default {
         Forloop,
         Seco,
         Userdata,
+        Htmlbinding,
+        classbinding,
     },
 };
 </script>
