@@ -1,5 +1,6 @@
 <template lang="">
 <div>
+    <!-- two way baynding useing v-model -->
     <input type="text" name="" id="" v-model="email" />
     <br />
     <br />

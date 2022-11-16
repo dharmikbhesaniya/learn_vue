@@ -6,7 +6,8 @@
         <!-- <Valuegetfrominput /> -->
         <!-- <Ifelse /> -->
         <!-- <Forloop /> -->
-        <seco />
+        <!-- <seco /> -->
+        <userdata />
         <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
     </div>
 </template>
@@ -19,6 +20,7 @@ import Learnvuejsasd from "./components/Learnvuejsasd.vue";
 import Twowaybinding from "./components/Twowaybinding.vue";
 import Valuegetfrominput from "./components/Valuegetfrominput.vue";
 import Seco from "./components/pass_data/Seco.vue";
+import Userdata from "./components/print_user_data/Userdata.vue";
 export default {
     name: "App",
     components: {
@@ -29,6 +31,7 @@ export default {
         Ifelse,
         Forloop,
         Seco,
+        Userdata,
     },
 };
 </script>

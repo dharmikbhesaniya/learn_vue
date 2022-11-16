@@ -1,5 +1,6 @@
 <template lang="">
     <div>
+        <!-- pass data one component to second component -->
         <h1>chailde</h1>
         <h1>{{ name }}</h1>
         <h1>{{ user.name }}</h1>
