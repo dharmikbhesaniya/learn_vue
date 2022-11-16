@@ -1,7 +1,8 @@
 <template lang="">
     <div>
         <div>{{ tag }}</div>
-                    <!-- nothing write here because this is error throw -->
+        <!-- nothing write here because this is error throw -->
+        <h1>hello</h1>
         <div v-html="tag"></div>
     </div>
 </template>
