@@ -1,6 +1,6 @@
 <template lang="">
     <div>
-        <First name="dharmik" />
+        <First name="dharmik" :user="user" :getdata="getdata"/>
         <p>perant</p>
     </div>
 </template>
@@ -11,6 +11,16 @@ export default {
     name: "Seco",
     components: {
         First,
+    },
+    data() {
+        return {
+            user: { name: "peter", email: "peter@test.com" },
+        };
+    },
+    methods: {
+        getdata() {
+            console.log("hello");
+        },
     },
 };
 </script>
