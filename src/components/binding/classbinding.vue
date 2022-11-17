@@ -1,6 +1,6 @@
 <template lang="">
     <div>
-        <h1 :class="apply">helloworld</h1>
+        <h1 :class="apply">hello</h1>
         <button v-on:click="chan()">to chang bgcolor</button>&nbsp;&nbsp;&nbsp;
         <button v-on:click="chan1()">to chang textcolor</button
         >&nbsp;&nbsp;&nbsp;
@@ -43,10 +43,10 @@ export default {
 <style scoped>
 .h1 {
     background-color: aqua;
-    padding: 10px;
 }
 h1 {
     width: 200px;
+    padding: 10px;
 }
 .red {
     color: red;
