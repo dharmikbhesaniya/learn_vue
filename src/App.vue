@@ -1,9 +1,14 @@
 <template>
     <div>
+        <!-- this is bind in index.html -->
+        <Teleport to="#teleport">
+            <teleportcomponentVue />
+        </Teleport>
+
         <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
         <!-- <learnvuejsasd /> -->
         <!-- <twowaybinding /> -->
-        <Valuegetfrominput />
+        <!-- <Valuegetfrominput /> -->
         <!-- <Ifelse /> -->
         <!-- <Forloop /> -->
         <!-- <seco /> -->
@@ -12,11 +17,15 @@
         <!-- <Htmlbinding /> -->
         <!-- <classbinding /> -->
         <!-- <refwithdom /> -->
+        <!-- <watch /> -->
+        <!-- <mai /> -->
+        <!-- <maincom /> -->
         <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
     </div>
 </template>
 
 <script>
+import teleportcomponentVue from "./components/teleportcomponent.vue";
 import Forloop from "./components/Forloop.vue";
 import HelloWorld from "./components/HelloWorld.vue";
 import Ifelse from "./components/Ifelse.vue";
@@ -29,9 +38,13 @@ import Userdata from "./components/print_user_data/Userdata.vue";
 import Htmlbinding from "./components/binding/Htmlbinding.vue";
 import classbinding from "./components/binding/classbinding.vue";
 import refwithdom from "./components/fef/refwithdom.vue";
+import watch from "./components/watch.vue";
+import mai from "./components/sloats/main.vue";
+import maincom from "./components/dynamic_component/maincom.vue";
 export default {
     name: "App",
     components: {
+        teleportcomponentVue,
         HelloWorld,
         Learnvuejsasd,
         Twowaybinding,
@@ -44,6 +57,9 @@ export default {
         Htmlbinding,
         classbinding,
         refwithdom,
+        watch,
+        mai,
+        maincom,
     },
 };
 </script>
