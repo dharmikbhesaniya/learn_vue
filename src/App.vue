@@ -1,9 +1,9 @@
 <template>
     <div>
         <!-- this is bind in index.html -->
-        <Teleport to="#teleport">
+        <!-- <Teleport to="#teleport">
             <teleportcomponentVue />
-        </Teleport>
+        </Teleport> -->
 
         <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
         <!-- <learnvuejsasd /> -->
@@ -20,6 +20,8 @@
         <!-- <watch /> -->
         <!-- <mai /> -->
         <!-- <maincom /> -->
+        <!-- <createdandbeforcreate /> -->
+        <mountedandbeformaunt />
         <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
     </div>
 </template>
@@ -41,6 +43,9 @@ import refwithdom from "./components/fef/refwithdom.vue";
 import watch from "./components/watch.vue";
 import mai from "./components/sloats/main.vue";
 import maincom from "./components/dynamic_component/maincom.vue";
+
+import createdandbeforcreate from "./components/life_cycle_methods/createdandbeforcreate.vue";
+import mountedandbeformaunt from "./components/life_cycle_methods/mountedandbeformaunt.vue";
 export default {
     name: "App",
     components: {
@@ -60,6 +65,8 @@ export default {
         watch,
         mai,
         maincom,
+        createdandbeforcreate,
+        mountedandbeformaunt,
     },
 };
 </script>
