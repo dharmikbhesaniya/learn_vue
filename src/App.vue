@@ -4,6 +4,13 @@
         <!-- <Teleport to="#teleport">
             <teleportcomponentVue />
         </Teleport> -->
+        <!-- this is for routing -->
+        <router-link to="./routing/home">home</router-link
+        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <router-link to="/login">login</router-link
+        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <router-link to="/profile">profile</router-link>
+        <router-view></router-view>
 
         <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
         <!-- <learnvuejsasd /> -->
@@ -21,7 +28,9 @@
         <!-- <mai /> -->
         <!-- <maincom /> -->
         <!-- <createdandbeforcreate /> -->
-        <mountedandbeformaunt />
+        <!-- <mountedandbeformaunt /> -->
+        <!-- <updatedandbeforupdat /> -->
+        <!-- <unmountedeandbeforeunmount /> -->
         <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
     </div>
 </template>
@@ -44,8 +53,12 @@ import watch from "./components/watch.vue";
 import mai from "./components/sloats/main.vue";
 import maincom from "./components/dynamic_component/maincom.vue";
 
+// this is life cycle components
 import createdandbeforcreate from "./components/life_cycle_methods/createdandbeforcreate.vue";
 import mountedandbeformaunt from "./components/life_cycle_methods/mountedandbeformaunt.vue";
+import updatedandbeforupdat from "./components/life_cycle_methods/updatedandbeforupdat.vue";
+import unmountedeandbeforeunmount from "./components/life_cycle_methods/unmountedeandbeforeunmount.vue";
+
 export default {
     name: "App",
     components: {
@@ -67,6 +80,8 @@ export default {
         maincom,
         createdandbeforcreate,
         mountedandbeformaunt,
+        updatedandbeforupdat,
+        unmountedeandbeforeunmount,
     },
 };
 </script>
