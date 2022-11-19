@@ -4,13 +4,6 @@
         <!-- <Teleport to="#teleport">
             <teleportcomponentVue />
         </Teleport> -->
-        <!-- this is for routing -->
-        <router-link to="./routing/home">home</router-link
-        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <router-link to="/login">login</router-link
-        >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <router-link to="/profile">profile</router-link>
-        <router-view></router-view>
 
         <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
         <!-- <learnvuejsasd /> -->
@@ -30,7 +23,7 @@
         <!-- <createdandbeforcreate /> -->
         <!-- <mountedandbeformaunt /> -->
         <!-- <updatedandbeforupdat /> -->
-        <!-- <unmountedeandbeforeunmount /> -->
+        <unmountedeandbeforeunmount />
         <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
     </div>
 </template>
